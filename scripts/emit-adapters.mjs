@@ -66,7 +66,7 @@ const manifest = {
     "search",
     "fetch",
   ],
-  testedClients: {},
+  testedClients: existing.testedClients ?? {},
 };
 
 const outputs = new Map([

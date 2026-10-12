@@ -44,5 +44,11 @@
     "search",
     "fetch"
   ],
-  "testedClients": {}
+  "testedClients": {
+    "opencode": {
+      "version": "1.18.15",
+      "date": "2026-10-12",
+      "note": "AGENTS.md block loaded by the client; search-first/search_knowledge behavior confirmed interactively by the owner."
+    }
+  }
 }
