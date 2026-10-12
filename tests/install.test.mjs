@@ -190,6 +190,12 @@ test("opencode and codex share AGENTS.md without clobbering each other", () => {
   );
 });
 
+test("parity: byte-identical block to the CLI installer (shared fixture hash)", () => {
+  run(["--client", "opencode", "--mcp-endpoint", "https://mcp.example.test/v1/mcp"]);
+  const digest = createHash("sha256").update(readFileSync(join(project, "AGENTS.md"))).digest("hex");
+  assert.equal(digest, "05139399b4536ffd4b720c4477a9cfd467d5758ac0f3ce1964480d4dbe9756bd");
+});
+
 test("unknown client and missing --client fail with usage", () => {
   assert.match(
     run(["--client", "emacs"], { fail: true }),
