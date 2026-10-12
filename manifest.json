@@ -1,0 +1,48 @@
+{
+  "version": "0.1.0-alpha.0",
+  "conventionsSha256": "0b1e013d946d64c6a0bc7792ca3f54cba1c0022ddaef1727375dc1634cea1b5f",
+  "clients": {
+    "generic": {
+      "adapter": "adapters/generic.md",
+      "target": "LIQUIDLM.md",
+      "mode": "owned-file"
+    },
+    "claude-code": {
+      "adapter": "adapters/claude-code.md",
+      "target": "CLAUDE.md",
+      "mode": "managed-section"
+    },
+    "codex": {
+      "adapter": "adapters/codex.md",
+      "target": "AGENTS.md",
+      "mode": "managed-section"
+    },
+    "opencode": {
+      "adapter": "adapters/opencode.md",
+      "target": "AGENTS.md",
+      "mode": "managed-section"
+    },
+    "cursor": {
+      "adapter": "adapters/cursor.mdc",
+      "target": ".cursor/rules/liquidlm.mdc",
+      "mode": "owned-file",
+      "frontmatter": true
+    }
+  },
+  "expectedTools": [
+    "search_knowledge",
+    "get_knowledge",
+    "list_knowledge",
+    "put_knowledge",
+    "forget_knowledge",
+    "follow_references",
+    "get_related",
+    "list_entities",
+    "pin_knowledge",
+    "unpin_knowledge",
+    "get_document_pages",
+    "search",
+    "fetch"
+  ],
+  "testedClients": {}
+}

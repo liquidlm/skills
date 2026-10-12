@@ -1,0 +1,27 @@
+name: Skills
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: ${{ matrix.node }}
+      - run: node scripts/emit-adapters.mjs --check
+      - run: node --test tests/*.test.mjs
+      - name: Scan source for secrets
+        if: matrix.os == 'ubuntu-latest' && matrix.node == 24
+        run: >-
+          docker run --rm --network none -v "$PWD:/source:ro"
+          ghcr.io/gitleaks/gitleaks@sha256:cdbb7c955abce02001a9f6c9f602fb195b7fadc1e812065883f695d1eeaba854
+          dir /source --redact --no-banner

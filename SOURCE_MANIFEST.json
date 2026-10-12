@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "release": "skills",
+  "files": [
+    {
+      "path": "adapters/claude-code.md",
+      "sha256": "0b1e013d946d64c6a0bc7792ca3f54cba1c0022ddaef1727375dc1634cea1b5f"
+    },
+    {
+      "path": "adapters/codex.md",
+      "sha256": "0b1e013d946d64c6a0bc7792ca3f54cba1c0022ddaef1727375dc1634cea1b5f"
+    },
+    {
+      "path": "adapters/cursor.mdc",
+      "sha256": "8665c8f913222eff773e8ebff0bd72aa590e6013b2fec5aa5e40df1263dd0db0"
+    },
+    {
+      "path": "adapters/generic.md",
+      "sha256": "0b1e013d946d64c6a0bc7792ca3f54cba1c0022ddaef1727375dc1634cea1b5f"
+    },
+    {
+      "path": "adapters/opencode.md",
+      "sha256": "0b1e013d946d64c6a0bc7792ca3f54cba1c0022ddaef1727375dc1634cea1b5f"
+    },
+    {
+      "path": "conventions.md",
+      "sha256": "0b1e013d946d64c6a0bc7792ca3f54cba1c0022ddaef1727375dc1634cea1b5f"
+    },
+    {
+      "path": "fixtures/behavior.json",
+      "sha256": "657b7a4721eada5466f22a8867e1e4dba4cc5c49bc1ba2c9db6a3977768e0f0a"
+    },
+    {
+      "path": "install.mjs",
+      "sha256": "769bae74f82e3aa273f740807056b235446ec4f214150963535432da56693218"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "c1e699f5b3d03dc9e36c26dedf647428d787780f740408055838c1bab54e11b8"
+    },
+    {
+      "path": "scripts/emit-adapters.mjs",
+      "sha256": "f3caaaad42f513cd2842d49e06e4a0e74824b050ea45578476b91678b618e115"
+    },
+    {
+      "path": "tests/contracts.test.mjs",
+      "sha256": "c0602ccca0fc7fa074dd504b44a926b6b67474cf4f110dfa9aede8f5305c29b5"
+    },
+    {
+      "path": "tests/install.test.mjs",
+      "sha256": "486978bed623335d633dc3b3b4936229508421b24c0129e25e91e9c462c3ff3c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.md",
+      "sha256": "c128d063c8f163dad031c3cec641b9453d3e06ebb055d9b6733c503e9ec3a0a0"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "634342f0d6cece075956040222cc5dedf41e2e52d386ec0f85655e9e601cda1d"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "221a07d3c2fa49a10f6ef30257c94d43650e0a4287709b7233dce1396702d578"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c7ae04e728743da8148e4ae95debb289bea13a0ba9cb244588fe8ddfed787cf9"
+    },
+    {
+      "path": ".prettierrc.json",
+      "sha256": "8716864481d07567034cf3fc22857c11fb5c7232e9ffb3ec405ed89f277ab4ed"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "8bcade42b866a50d71be0978d1518098b063e9e73f3cd70ebda5b054d2745247"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "8c68a24704efb5e381cba8e9b58c7d8f26df08a4bde49a9dab620b5e8de8ea4d"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "edb9a02e0a09328325bb467b3fa3bb06548c07e45370b7f5b0a8f7562e6f5895"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0b2e097a790500e8988de9f3b309efdcab610706a906e4be93e7ff9c3937db37"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c33497bd3928d3f002c30e17c050289bd03504e9cbc10e3cb0c8956625f8061f"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "753934ff0e283b51a09878e26b91b5ca86d3f4361796565cf14f02107509623e"
+    },
+    {
+      "path": "SUPPORT.md",
+      "sha256": "d48c99c125237241f30a5fa6dba79546087570eb675daca764ef8146aaadd4c5"
+    }
+  ]
+}
